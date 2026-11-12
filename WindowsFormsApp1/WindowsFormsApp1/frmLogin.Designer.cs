@@ -41,7 +41,7 @@
             // 
             this.lgnUsername.AutoSize = true;
             this.lgnUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lgnUsername.Location = new System.Drawing.Point(178, 148);
+            this.lgnUsername.Location = new System.Drawing.Point(130, 141);
             this.lgnUsername.Name = "lgnUsername";
             this.lgnUsername.Size = new System.Drawing.Size(55, 13);
             this.lgnUsername.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             this.lgnPassword.AutoSize = true;
             this.lgnPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lgnPassword.Location = new System.Drawing.Point(180, 205);
+            this.lgnPassword.Location = new System.Drawing.Point(132, 198);
             this.lgnPassword.Name = "lgnPassword";
             this.lgnPassword.Size = new System.Drawing.Size(53, 13);
             this.lgnPassword.TabIndex = 1;
@@ -64,7 +64,7 @@
             // boxUsername
             // 
             this.boxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boxUsername.Location = new System.Drawing.Point(259, 143);
+            this.boxUsername.Location = new System.Drawing.Point(211, 136);
             this.boxUsername.Name = "boxUsername";
             this.boxUsername.Size = new System.Drawing.Size(167, 22);
             this.boxUsername.TabIndex = 2;
@@ -74,7 +74,7 @@
             // boxPassword
             // 
             this.boxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boxPassword.Location = new System.Drawing.Point(258, 200);
+            this.boxPassword.Location = new System.Drawing.Point(210, 193);
             this.boxPassword.Name = "boxPassword";
             this.boxPassword.Size = new System.Drawing.Size(168, 22);
             this.boxPassword.TabIndex = 3;
@@ -84,12 +84,11 @@
             // 
             // LOGO
             // 
-            this.LOGO.AutoSize = true;
-            this.LOGO.BackColor = System.Drawing.SystemColors.Control;
+            this.LOGO.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.LOGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LOGO.Location = new System.Drawing.Point(321, 98);
+            this.LOGO.Location = new System.Drawing.Point(-3, 81);
             this.LOGO.Name = "LOGO";
-            this.LOGO.Size = new System.Drawing.Size(45, 16);
+            this.LOGO.Size = new System.Drawing.Size(582, 33);
             this.LOGO.TabIndex = 4;
             this.LOGO.Text = "Login";
             this.LOGO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -98,7 +97,7 @@
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(258, 243);
+            this.btnLogin.Location = new System.Drawing.Point(210, 236);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(80, 22);
             this.btnLogin.TabIndex = 5;
@@ -109,7 +108,7 @@
             // btnSignup
             // 
             this.btnSignup.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignup.Location = new System.Drawing.Point(344, 243);
+            this.btnSignup.Location = new System.Drawing.Point(296, 236);
             this.btnSignup.Name = "btnSignup";
             this.btnSignup.Size = new System.Drawing.Size(82, 22);
             this.btnSignup.TabIndex = 6;
