@@ -1,4 +1,4 @@
-namespace Am_is_Week06_Work05
+namespace Juan
 {
     internal static class Program
     {
