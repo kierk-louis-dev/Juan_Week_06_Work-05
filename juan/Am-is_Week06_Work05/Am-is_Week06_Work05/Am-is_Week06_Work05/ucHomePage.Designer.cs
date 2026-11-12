@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace Am_is_Week06_Work05
 {
     partial class ucHomePage
     {
@@ -28,16 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
+            SuspendLayout();
             // 
             // ucHomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "ucHomePage";
-            this.Size = new System.Drawing.Size(921, 550);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Name = "ucHomePage";
+            Size = new Size(592, 510);
+            ResumeLayout(false);
         }
 
         #endregion
