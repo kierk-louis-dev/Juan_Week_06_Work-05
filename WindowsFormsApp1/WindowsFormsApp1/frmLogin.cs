@@ -37,10 +37,14 @@ namespace WindowsFormsApp1
             if (boxUsername.Text == "Admin" 
                 && boxPassword.Text == "1234")
             {
-                MessageBox.Show("Login Failed Please Try Again!");
+                MessageBox.Show("Login Succesful!");
                 var InventroyForm = new Form2();
                 InventroyForm.Show();
                 this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Login Failed Please Try Again!");
             }
         }
 
@@ -52,6 +56,11 @@ namespace WindowsFormsApp1
         private void boxPassword_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void LOGO_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

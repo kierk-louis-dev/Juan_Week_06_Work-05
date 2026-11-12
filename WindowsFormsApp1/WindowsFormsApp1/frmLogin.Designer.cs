@@ -40,10 +40,10 @@
             // lgnUsername
             // 
             this.lgnUsername.AutoSize = true;
-            this.lgnUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lgnUsername.Location = new System.Drawing.Point(166, 149);
+            this.lgnUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lgnUsername.Location = new System.Drawing.Point(178, 148);
             this.lgnUsername.Name = "lgnUsername";
-            this.lgnUsername.Size = new System.Drawing.Size(78, 16);
+            this.lgnUsername.Size = new System.Drawing.Size(55, 13);
             this.lgnUsername.TabIndex = 0;
             this.lgnUsername.Text = "Username";
             this.lgnUsername.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -52,10 +52,10 @@
             // lgnPassword
             // 
             this.lgnPassword.AutoSize = true;
-            this.lgnPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lgnPassword.Location = new System.Drawing.Point(169, 206);
+            this.lgnPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lgnPassword.Location = new System.Drawing.Point(180, 205);
             this.lgnPassword.Name = "lgnPassword";
-            this.lgnPassword.Size = new System.Drawing.Size(75, 16);
+            this.lgnPassword.Size = new System.Drawing.Size(53, 13);
             this.lgnPassword.TabIndex = 1;
             this.lgnPassword.Text = "Password";
             this.lgnPassword.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -66,7 +66,7 @@
             this.boxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boxUsername.Location = new System.Drawing.Point(259, 143);
             this.boxUsername.Name = "boxUsername";
-            this.boxUsername.Size = new System.Drawing.Size(126, 22);
+            this.boxUsername.Size = new System.Drawing.Size(167, 22);
             this.boxUsername.TabIndex = 2;
             this.boxUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.boxUsername.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -76,29 +76,31 @@
             this.boxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boxPassword.Location = new System.Drawing.Point(258, 200);
             this.boxPassword.Name = "boxPassword";
-            this.boxPassword.Size = new System.Drawing.Size(126, 22);
+            this.boxPassword.Size = new System.Drawing.Size(168, 22);
             this.boxPassword.TabIndex = 3;
             this.boxPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.boxPassword.UseSystemPasswordChar = true;
             this.boxPassword.TextChanged += new System.EventHandler(this.boxPassword_TextChanged);
             // 
             // LOGO
             // 
             this.LOGO.AutoSize = true;
-            this.LOGO.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.LOGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LOGO.Location = new System.Drawing.Point(222, 25);
+            this.LOGO.BackColor = System.Drawing.SystemColors.Control;
+            this.LOGO.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LOGO.Location = new System.Drawing.Point(321, 98);
             this.LOGO.Name = "LOGO";
-            this.LOGO.Size = new System.Drawing.Size(133, 31);
+            this.LOGO.Size = new System.Drawing.Size(45, 16);
             this.LOGO.TabIndex = 4;
-            this.LOGO.Text = "SHOPEE";
+            this.LOGO.Text = "Login";
             this.LOGO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LOGO.Click += new System.EventHandler(this.LOGO_Click);
             // 
             // btnLogin
             // 
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(181, 272);
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(258, 243);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(82, 32);
+            this.btnLogin.Size = new System.Drawing.Size(80, 22);
             this.btnLogin.TabIndex = 5;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -106,10 +108,10 @@
             // 
             // btnSignup
             // 
-            this.btnSignup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSignup.Location = new System.Drawing.Point(302, 272);
+            this.btnSignup.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSignup.Location = new System.Drawing.Point(344, 243);
             this.btnSignup.Name = "btnSignup";
-            this.btnSignup.Size = new System.Drawing.Size(82, 32);
+            this.btnSignup.Size = new System.Drawing.Size(82, 22);
             this.btnSignup.TabIndex = 6;
             this.btnSignup.Text = "Signup";
             this.btnSignup.UseVisualStyleBackColor = true;
